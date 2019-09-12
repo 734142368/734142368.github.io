@@ -18,14 +18,28 @@ div{
     height: 7%;
     background: #fdc214;
     text-align: center;
-    line-height: 60px;
+
+
     color: #fff;
-    font: 500 35px SansSerif;
+    font: 500 30px SansSerif;
+    line-height: 60px;
+
+
+
+
 }
+em{
+    margin-right: 50px!important;
+}
+
+
 span{
     display: block !important;
     text-align: center;
-    margin: 120px auto !important;
+    margin: 100px auto  !important;
+    border-radius: 50% !important;
+
+
     height: 15%;
     width: 70%;
 
@@ -35,10 +49,10 @@ span{
  span a{
     text-decoration: none !important;
     color: inherit;
-    font: 500 60px SansSerif;
+    font: 500 50px SansSerif;
     line-height: 130px;
     height: 100%;
     width: 100%;
     display: block;
-
+     margin-right: 160px;
 }
