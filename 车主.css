@@ -1,150 +1,109 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: #84b2db;
-    text-align: center;
+    height: 850px;
 }
-section{
-    width: 100%;
-    height: 150px;
-    background: #AEBDCC;
+.ad{
+    height: 9%;
+    background: #ccc;
     text-align: center;
-    font:bold 35px sans-serif;
+    font: 500 40px sans-serif;
+    line-height: 76px;
+    color: #fff;
 }
-.taxi{
-    width: 100%;
-    height: 100px;
-    background: #60d44b;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px
+.diver{
+     width: 60%;
+     height: 8%;
+     background: #00cc00;
+    margin: 15% auto 6%;
+    text-align: center;
+    font: 500 35px sans-serif;
+    line-height: 68px;
+    color: #000;
+    transition: 1.0s;
 
 }
 .owner{
-    width: 100%;
-    height: 100px;
-    background: #008ccc;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px
+    width: 60%;
+    height: 8%;
+    background: #4062fd;
+    margin: 6% auto;
+    text-align: center;
+    font: 500 35px sans-serif;
+    line-height: 68px;
+    color: #000;
+    transition: 1.0s;
+
 }
-.give{
-    width: 100%;
-    height: 100px;
-    background: #b8df06;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px
+.givemessages{
+    width: 60%;
+    height: 8%;
+    background: #fdc214;
+    margin: 6% auto;
+    text-align: center;
+    font: 500 35px sans-serif;
+    line-height: 68px;
+    color: #000;
+    transition: 1.0s;
+
 }
-.get{
-    width: 100%;
-    height: 100px;
-    background: #af1acc;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px
+.getmessages{
+    width: 60%;
+    height: 8%;
+    background: #9a0013;
+    margin: 6% auto;
+    text-align: center;
+    font: 500 35px sans-serif;
+    line-height: 68px;
+    color: #000;
+    transition: 1.0s;
+
 }
 .mine{
-    width: 100%;
-    height: 100px;
-    background: #7407cc;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px
+    width: 60%;
+    height: 8%;
+    background: #8b07cc;
+    margin: 6% auto;
+    text-align: center;
+    font: 500 35px sans-serif;
+    line-height: 68px;
+    color: #000 !important;
+    transition: 1.0s;
+
 }
- .taxi span{
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%,-50%);
-}
-.ad span  {
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-}
-.owner span {
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-}
-.give  span {
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-}
-.get  span {
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-}
-.mine  span {
-    position: relative;
-    top: 25%;
-    left: 0%;
-    transform: translate(-50%, -50%);
+div a{
+    text-decoration: none !important;
+    display: block;
+    color: #000!important;
 }
 
-.taxi:hover {
-    width: 25%;
-    height: 100px;
-    background: #1fcc00;
-    margin: auto;
-    font: bold 35px sans-serif;
-    border-radius: 30px;
-    transition: .8s;
-    color: #ffffff;
+.diver:hover{
+    width: 50%;
 
 }
 .owner:hover{
-    width: 25%;
-    height: 96px;
-    background: #037cb3;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px;
-    transition:.8s;
-    color: #ffffff;
+    width: 50%;
 
 }
-.give:hover {
-    width: 25%;
-    height: 96px;
-    background: #a0c208;
-    margin: auto;
-    font: bold 35px sans-serif;
-    border-radius: 30px;
-    transition: .8s;
-    color: #ffffff;
+.givemessages:hover{
+    width: 50%;
+
 }
-.get:hover{
-    width: 25%;
-    height: 96px;
-    background: #8d09a7;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px;
-    transition:.8s;
-    color: #ffffff;
+.getmessages:hover{
+    width: 50%;
+
+}
+.owner:hover{
+    width: 50%;
 
 }
 .mine:hover{
-    width: 25%;
-    height: 96px;
-    background: #5e09a3;
-    margin: auto;
-    font:bold 35px sans-serif;
-    border-radius: 30px;
-    transition:.8s;
-    color: #ffffff;
-
+    width: 50%;
 }
-a{
-    text-decoration: none;
-    width: 40%;
-    display: inline-block;
+
+
+a:hover{
+    color: #fff !important;
+}
+.container:before
+{
+ display: none;
 }
