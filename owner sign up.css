@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     height: 850px;
     margin: 0;
@@ -10,17 +14,19 @@ body{
     color: #fff;
 }
 .title01{
-    display: inline-block;
-    margin: 7px 0px 7px 50px ;
+    display: block;
+    width:140px ;
+    margin: 0px auto ;
+    line-height: 60px;
 }
 img{
     width:  40px;
     float: left;
-    margin: 14px 0px;
+    margin: -47px 0px;
 }
-.onclick a{
+ a{
     display: inline-block;
-    width: 120px;
+    width: 30%;
     height: 31px;
     background: #2ed573;
     line-height: 31px;
@@ -29,17 +35,14 @@ img{
     font-size: 12px;
     text-align: center;
     font-weight: bold;
-    float: right;
-    margin: 23px auto;
+    margin: 23px 8%;
 }
-.onclick{
-    margin-right: 0px;
-    display: inline;
+
 
 
 }
 .container{
-    width: 300px;
+    width: 100%;
     margin: 70px 100px 70px 0;
     font-size: 25px;
 }
@@ -53,17 +56,23 @@ input[type="submit"]{
     border-radius: 15%;
     background: #3742fa;
     color: #fff;
-    width: 50px;
-    height: 30px;
+    width: 80px;
+    height: 50px;
     line-height: 27px;
     text-align: center;
-    margin: 30px auto;
+    margin: 50px auto;
 
 
 }
-label{
+label {
     display: block;
     line-height: 72px;
     position: relative;
-    overflow: hidden;
+    margin: 10% 0px;
+}
+.return{
+    display: inline;
+}
+form{
+    width: 100%;
 }
