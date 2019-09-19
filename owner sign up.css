@@ -16,13 +16,13 @@ body{
 .title01{
     display: block;
     width:140px ;
-    margin: 0px auto ;
+    margin: 0 auto ;
     line-height: 60px;
 }
 img{
     width:  40px;
     float: left;
-    margin: -47px 0px;
+    margin: -47px 0;
 }
  a{
     display: inline-block;
@@ -40,7 +40,7 @@ img{
 
 
 
-}
+
 .container{
     width: 100%;
     margin: 70px 100px 70px 0;
@@ -68,7 +68,7 @@ label {
     display: block;
     line-height: 72px;
     position: relative;
-    margin: 10% 0px;
+    margin: 10% 0;
 }
 .return{
     display: inline;
