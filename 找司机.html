@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <title>找司机</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
 </head>
 <style>
-    .zx {
+    div.zx {
         width: 90%;
-        padding: 10px;
         border: 1px solid black;
+        margin: 8px auto;
         height: 600px;
+        border-radius: 10px;
         background-color: yellow;
-        margin: 1px auto;
-    }
-    div img{
-        float: left;
-
     }
 
+    div {
+        text-align: center;
 
-
+    }
 
     * {
         margin: 0;
         padding: 0;
     }
 
-    div span  {
-        display: inline-block;
-        font:500 20px sans-serif;
-        margin:0 20%;
-
-    }
-   .title{
-        background-color: greenyellow;
-
+    h1 {
+        background-color: aqua;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        width: 100px;
+        height: 47px;
+        text-align: center;
+        border-radius: 6px;
     }
 
     .x {
@@ -46,6 +44,18 @@
         border-radius: 10px;
     }
 
+    .m {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        width: 50px;
+        height: 25px;
+        text-align: center;
+        margin:;
+        background-color: aqua;
+        border-radius: 6px;
+    }
+
     .nav {
         float: right;
         border-width: 1px;
@@ -54,8 +64,9 @@
         width: 50px;
         height: 25px;
         text-align: center;
-        background-color: greenyellow;
+        background-color: #ADFF2F;
         border-radius: 6px;
+		color: white;
 
     }
 
@@ -63,13 +74,25 @@
         margin-right: 17px;
 
     }
+	div span  {
+		display: inline-block;
+		font:500 30px sans-serif;
+		margin:0 15%;
+
+	}
+	div img{
+		float: left;
+
+	}
+	.title{
+		background-color: #ADFF2F;
+
+	}
 </style>
-
-
 </head>
 <body>
-<div class="title"><span>我要找车主</span>
-    <a href="https://734142368.github.io/司机登录.html"><img src="images/return.png" height="30px"></a>
+<div class="title"><span>找司机</span>
+	<a href="https://734142368.github.io/Main%20Page#"><img src="images/return.png" height="30px"></a>
 </div>
 <div class="adress">
     <label for="top_domains"></label><select id="top_domains" class="nav">
@@ -132,13 +155,11 @@
     }
 </script>
 <br/><br/>
-
 <div class="zx">
     <div><br/><br/>
         <textarea class="x"></textarea><br/>
         <textarea class="x"></textarea><br/>
         <textarea class="x"></textarea><br/>
-    </div>
-</div>
+
 </body>
 </html>
